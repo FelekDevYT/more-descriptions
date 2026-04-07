@@ -9,8 +9,6 @@ module.category.world.name=World
 module.category.client.name=Client
 module.category.external.name=External
 
-
-
 # panels
 ui.panel.external.name=External
 ui.panel.world.name=World
@@ -22,51 +20,47 @@ ui.panel.miscellaneous.name=Miscellaneous
 ui.panel.movement.name=Movement
 ui.panel.client.name=Client
 
-
-
 # screens
 ui.screen.clickgui.name=ClickGui
 ui.screen.hud_editor.name=Hud Editor
 ui.screen.windows.name=Windows
 
-
-
 # modules
 feature.module.airplace.name=AirPlace
 feature.module.airplace.description=Place blocks in midair
 feature.module.airplace.setting.grim.name=Grim
-feature.module.airplace.setting.grim.description=
+feature.module.airplace.setting.grim.description=Bypass for Grim anti-cheat
 feature.module.airplace.setting.render.name=Render
-feature.module.airplace.setting.render.description=
+feature.module.airplace.setting.render.description=Renders the placement position
 feature.module.airplace.setting.render.color.name=Color
-feature.module.airplace.setting.render.color.description=
+feature.module.airplace.setting.render.color.description=The color of the render
 
 feature.module.anchor.name=Anchor
 feature.module.anchor.description=Stops your movement when you are over a hole
 feature.module.anchor.setting.height.name=Height
-feature.module.anchor.setting.height.description=
+feature.module.anchor.setting.height.description=Required hole depth to activate
 feature.module.anchor.setting.center.name=Center
-feature.module.anchor.setting.center.description=
+feature.module.anchor.setting.center.description=Pulls you to the center of the hole
 feature.module.anchor.setting.center.range.name=Range
-feature.module.anchor.setting.center.range.description=
+feature.module.anchor.setting.center.range.description=The maximum distance to start centering
 feature.module.anchor.setting.center.raytrace.name=RayTrace
-feature.module.anchor.setting.center.raytrace.description=
+feature.module.anchor.setting.center.raytrace.description=Checks for obstructions before centering
 feature.module.anchor.setting.center.speed.name=Speed
-feature.module.anchor.setting.center.speed.description=
+feature.module.anchor.setting.center.speed.description=How fast you are pulled to the center
 feature.module.anchor.setting.descend.name=Descend
-feature.module.anchor.setting.descend.description=
+feature.module.anchor.setting.descend.description=Automatically lowers you into the hole
 feature.module.anchor.setting.descend.speed.name=Speed
-feature.module.anchor.setting.descend.speed.description=
+feature.module.anchor.setting.descend.speed.description=The speed at which you descend
 feature.module.anchor.setting.doubles.name=Doubles
-feature.module.anchor.setting.doubles.description=Descend into double holes
+feature.module.anchor.setting.doubles.description=Descend into double (1x2) holes
 feature.module.anchor.setting.autodisable.name=AutoDisable
-feature.module.anchor.setting.autodisable.description=
+feature.module.anchor.setting.autodisable.description=Disables the module after anchoring
 feature.module.anchor.setting.pitchcontrol.name=PitchControl
 feature.module.anchor.setting.pitchcontrol.description=Only descend while looking at set pitch
 feature.module.anchor.setting.pitchcontrol.pitch.name=Pitch
-feature.module.anchor.setting.pitchcontrol.pitch.description=
+feature.module.anchor.setting.pitchcontrol.pitch.description=The required camera pitch to descend
 feature.module.anchor.setting.delay.name=Delay
-feature.module.anchor.setting.delay.description=
+feature.module.anchor.setting.delay.description=Delay in ticks before anchoring
 
 feature.module.announcer.name=Announcer
 feature.module.announcer.description=Announces what you are doing in chat
@@ -77,47 +71,47 @@ feature.module.announcer.setting.others.description=Announce other player's acti
 feature.module.announcer.setting.delay.name=Delay
 feature.module.announcer.setting.delay.description=Delay in seconds between messages
 feature.module.announcer.setting.walking.name=Walking
-feature.module.announcer.setting.walking.description=
+feature.module.announcer.setting.walking.description=Announce when you walk a certain distance
 feature.module.announcer.setting.walking.string.name=String
-feature.module.announcer.setting.walking.string.description=
+feature.module.announcer.setting.walking.string.description=The message format for this announcement
 feature.module.announcer.setting.break.name=Break
-feature.module.announcer.setting.break.description=
+feature.module.announcer.setting.break.description=Announce when you break blocks
 feature.module.announcer.setting.break.string.name=String
-feature.module.announcer.setting.break.string.description=
+feature.module.announcer.setting.break.string.description=The message format for this announcement
 feature.module.announcer.setting.place.name=Place
-feature.module.announcer.setting.place.description=
+feature.module.announcer.setting.place.description=Announce when you place blocks
 feature.module.announcer.setting.place.string.name=String
-feature.module.announcer.setting.place.string.description=
+feature.module.announcer.setting.place.string.description=The message format for this announcement
 feature.module.announcer.setting.pickup.name=Pickup
-feature.module.announcer.setting.pickup.description=
+feature.module.announcer.setting.pickup.description=Announce when you pick up items
 feature.module.announcer.setting.pickup.string.name=String
-feature.module.announcer.setting.pickup.string.description=
+feature.module.announcer.setting.pickup.string.description=The message format for this announcement
 feature.module.announcer.setting.xp.name=XP
-feature.module.announcer.setting.xp.description=
+feature.module.announcer.setting.xp.description=Announce when you pick up XP
 feature.module.announcer.setting.xp.string.name=String
-feature.module.announcer.setting.xp.string.description=
+feature.module.announcer.setting.xp.string.description=The message format for this announcement
 feature.module.announcer.setting.eating.name=Eating
-feature.module.announcer.setting.eating.description=
+feature.module.announcer.setting.eating.description=Announce when you eat food
 feature.module.announcer.setting.eating.string.name=String
-feature.module.announcer.setting.eating.string.description=
+feature.module.announcer.setting.eating.string.description=The message format for this announcement
 feature.module.announcer.setting.drinking.name=Drinking
-feature.module.announcer.setting.drinking.description=
+feature.module.announcer.setting.drinking.description=Announce when you drink potions
 feature.module.announcer.setting.drinking.string.name=String
-feature.module.announcer.setting.drinking.string.description=
+feature.module.announcer.setting.drinking.string.description=The message format for this announcement
 feature.module.announcer.setting.time.name=Time
 feature.module.announcer.setting.time.description=Announce changes of the game time
 feature.module.announcer.setting.time.day.name=Day
-feature.module.announcer.setting.time.day.description=
+feature.module.announcer.setting.time.day.description=Announce when it becomes day
 feature.module.announcer.setting.time.noon.name=Noon
-feature.module.announcer.setting.time.noon.description=
+feature.module.announcer.setting.time.noon.description=Announce when it becomes noon
 feature.module.announcer.setting.time.sunset.name=Sunset
-feature.module.announcer.setting.time.sunset.description=
+feature.module.announcer.setting.time.sunset.description=Announce when it's sunset
 feature.module.announcer.setting.time.night.name=Night
-feature.module.announcer.setting.time.night.description=
+feature.module.announcer.setting.time.night.description=Announce when it becomes night
 feature.module.announcer.setting.time.midnight.name=Midnight
-feature.module.announcer.setting.time.midnight.description=
+feature.module.announcer.setting.time.midnight.description=Announce when it's midnight
 feature.module.announcer.setting.time.sunrise.name=Sunrise
-feature.module.announcer.setting.time.sunrise.description=
+feature.module.announcer.setting.time.sunrise.description=Announce when it's sunrise
 
 feature.module.antiafk.name=AntiAFK
 feature.module.antiafk.description=Do things to prevent afk kick
